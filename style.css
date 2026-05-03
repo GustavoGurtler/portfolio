@@ -717,6 +717,27 @@ textarea {
   margin-top: 1.5rem;
 }
 
+.feature-action-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+}
+
+.feature-action-row .button {
+  flex: 1 1 13rem;
+}
+
+.feature-case-link {
+  width: fit-content;
+  color: #d7f3ff;
+  font-weight: 700;
+}
+
+.feature-case-link:hover,
+.feature-case-link:focus-visible {
+  color: var(--accent);
+}
+
 .feature-note {
   margin: 0;
   max-width: 26rem;

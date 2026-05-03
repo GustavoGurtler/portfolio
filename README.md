@@ -2,7 +2,7 @@
 
 Este repositorio contem meu portfolio pessoal publicado no GitHub Pages.
 
-O site reune minha apresentacao profissional, areas de atuacao, projeto em destaque, tecnologias com as quais trabalho e formas de contato.
+O site reune minha apresentacao profissional, areas de interesse, projeto em destaque, tecnologias que venho estudando e formas de contato.
 
 ## Acesso
 

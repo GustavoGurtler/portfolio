@@ -496,7 +496,6 @@ textarea {
   line-height: 1.65;
 }
 
-.status-card,
 .mini-card,
 .about-card,
 .metric-card,
@@ -512,14 +511,6 @@ textarea {
   backdrop-filter: blur(18px);
 }
 
-.status-card {
-  padding: 1.45rem;
-  background:
-    linear-gradient(145deg, rgba(111, 226, 255, 0.12), transparent 60%),
-    rgba(8, 18, 31, 0.92);
-}
-
-.status-label,
 .metric-label,
 .summary-badge,
 .tech-label {
@@ -531,20 +522,6 @@ textarea {
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--accent);
-}
-
-.status-card strong {
-  display: block;
-  margin-top: 0.8rem;
-  font-family: var(--font-heading);
-  font-size: 1.5rem;
-  letter-spacing: -0.04em;
-}
-
-.status-card p {
-  margin: 0.85rem 0 0;
-  color: var(--muted);
-  line-height: 1.7;
 }
 
 .mini-grid {
@@ -991,7 +968,6 @@ textarea {
     width: 8.8rem;
   }
 
-  .status-card,
   .mini-card,
   .about-card,
   .metric-card,

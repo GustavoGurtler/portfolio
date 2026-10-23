@@ -5,460 +5,178 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Portfólio de Gustavo Gurtler, estudante de Engenharia da Computação com experiência em suporte técnico e aprendizado em Python, automação e sistemas internos."
+      content="Gustavo Gurtler. Técnico de engenharia de testes e estudante de Engenharia da Computação em Jundiaí, SP."
     />
-    <meta name="theme-color" content="#08111f" />
-    <title>Gustavo Gurtler | TI, Python e Automação</title>
+    <title>Gustavo Gurtler</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="page-shell">
-      <header class="site-header">
-        <div class="container nav-wrap">
-          <a href="#inicio" class="brand" aria-label="Ir para o início">
-            <span class="brand-mark">PY</span>
-            <span class="brand-text">Gustavo Gurtler</span>
-          </a>
-
-          <button
-            class="nav-toggle"
-            type="button"
-            aria-label="Abrir menu de navegação"
-            aria-controls="primary-navigation"
-            aria-expanded="false"
-          >
-            <span></span>
-            <span></span>
-          </button>
-
-          <nav class="site-nav" aria-label="Navegação principal">
-            <ul class="nav-links" id="primary-navigation">
-              <li><a href="#inicio">Início</a></li>
-              <li><a href="#sobre">Sobre</a></li>
-              <li><a href="#projeto">Projeto</a></li>
-              <li><a href="#tecnologias">Tecnologias</a></li>
-              <li><a href="#contato">Contato</a></li>
-            </ul>
-          </nav>
+    <main class="page">
+      <header class="intro">
+        <img
+          class="photo"
+          src="assets/gustavo-gurtler-profile-v2.jpeg"
+          alt="Foto de Gustavo Gurtler"
+          width="88"
+          height="88"
+        />
+        <div>
+          <h1>Gustavo Gurtler</h1>
+          <p class="lead">
+            Técnico de engenharia de testes na Compal e estudante de Engenharia
+            da Computação na Universidade São Francisco. Jundiaí, SP.
+          </p>
+          <ul class="links">
+            <li><a href="mailto:gustavogurtler@gmail.com">E-mail</a></li>
+            <li>
+              <a href="https://www.linkedin.com/in/gustavo-gurtler1" target="_blank" rel="noreferrer">LinkedIn</a>
+            </li>
+            <li>
+              <a href="https://github.com/GustavoGurtler" target="_blank" rel="noreferrer">GitHub</a>
+            </li>
+            <li>
+              <a href="https://wa.me/5511944834989" target="_blank" rel="noreferrer">WhatsApp</a>
+            </li>
+          </ul>
         </div>
       </header>
 
-      <main>
-        <section class="hero section" id="inicio">
-          <div class="container hero-grid">
-            <div class="hero-copy" data-reveal>
-              <span class="eyebrow">Python • Automação • Sistemas Web</span>
-              <h1>Gustavo Gurtler</h1>
-              <p class="hero-title">
-                Suporte ao usuário hoje, automação de processos como próximo passo
-              </p>
-              <p class="hero-text">
-                Trabalho com suporte técnico em ambiente escolar. Por iniciativa
-                própria, criei um sistema interno para organizar reservas,
-                reduzir controles manuais e facilitar a rotina da equipe de TI.
-              </p>
-
-              <div class="hero-actions">
-                <a class="button button-primary" href="#projeto">Ver projeto</a>
-                <a class="button button-secondary" href="#contato">Contato</a>
-              </div>
-
-              <ul class="hero-highlights" aria-label="Pontos principais">
-                <li>Rotina real de suporte técnico</li>
-                <li>Python e automação em evolução</li>
-                <li>Projeto interno aplicado na prática</li>
-              </ul>
-            </div>
-
-            <div class="hero-panel" data-reveal>
-              <div class="panel-frame">
-                <div class="panel-header">
-                  <span class="panel-dot"></span>
-                  <span class="panel-dot"></span>
-                  <span class="panel-dot"></span>
-                </div>
-
-                <div class="panel-content">
-                  <div class="profile-card">
-                    <div class="profile-photo-wrap">
-                      <img
-                        class="profile-photo"
-                        src="assets/gustavo-gurtler-profile-v2.jpeg"
-                        alt="Foto de Gustavo Gurtler"
-                      />
-                    </div>
-
-                    <div class="profile-copy">
-                      <span class="profile-tag">Jundiaí • SP</span>
-                      <strong>Gustavo Gurtler</strong>
-                      <p>Suporte técnico e aprendizado em automação</p>
-                    </div>
-                  </div>
-
-                  <div class="mini-grid">
-                    <article class="mini-card">
-                      <span>Fluxos</span>
-                      <strong>Processos mais previsíveis</strong>
-                    </article>
-                    <article class="mini-card">
-                      <span>Web</span>
-                      <strong>Interfaces objetivas com Flask</strong>
-                    </article>
-                    <article class="mini-card">
-                      <span>Controle</span>
-                      <strong>Dados organizados em tempo real</strong>
-                    </article>
-                    <article class="mini-card accent-card">
-                      <span>Resultado</span>
-                      <strong>Menos falhas, mais eficiência</strong>
-                    </article>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="section" id="sobre">
-          <div class="container">
-            <div class="section-heading" data-reveal>
-              <span class="eyebrow">Sobre</span>
-              <h2>Sobre mim</h2>
-            </div>
-
-            <div class="about-grid">
-              <div class="about-card" data-reveal>
-                <p>
-                  Sou estudante do 3º semestre de Engenharia da Computação pela
-                  Universidade São Francisco e trabalho com suporte técnico em
-                  ambiente escolar, atuando com usuários, manutenção de
-                  equipamentos e rotina de TI.
-                </p>
-                <p>
-                  Nesse contexto, desenvolvi um sistema interno para reservas de
-                  projetores e computadores, substituindo controles manuais e
-                  ajudando a equipe a trabalhar de forma mais organizada. Foi
-                  uma iniciativa própria, além das minhas atividades de suporte.
-                </p>
-                <p>
-                  Tenho formação técnica em Informática, experiência com Excel e
-                  Access, noções em Python, Flask, Visual Basic, C#, HTML e ASP,
-                  além de Inglês Avançado (C1). Atualmente estudo Python do
-                  básico à automação e busco crescer com projetos que tenham
-                  aplicação prática e resolvam problemas de verdade.
-                </p>
-              </div>
-
-              <div class="about-metrics" data-reveal>
-                <article class="metric-card">
-                  <span class="metric-label">Foco técnico</span>
-                  <strong>Suporte técnico, Python e automação em evolução</strong>
-                </article>
-                <article class="metric-card">
-                  <span class="metric-label">Localização</span>
-                  <strong>Jundiaí - São Paulo</strong>
-                </article>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="section" id="foco">
-          <div class="container">
-            <div class="section-heading" data-reveal>
-              <span class="eyebrow">Áreas de foco</span>
-              <h2>Onde venho aplicando tecnologia na prática</h2>
-            </div>
-
-            <div class="card-grid four-up">
-              <article class="info-card" data-reveal>
-                <h3>Automação de processos</h3>
-                <p>
-                  Interesse em automatizar tarefas que antes dependiam de papel,
-                  planilhas ou controles manuais.
-                </p>
-              </article>
-
-              <article class="info-card" data-reveal>
-                <h3>Primeiros sistemas web com Python</h3>
-                <p>
-                  Uso de Flask em um projeto interno real, com foco em uso
-                  prático, clareza e organização.
-                </p>
-              </article>
-
-              <article class="info-card" data-reveal>
-                <h3>Organização de sistemas internos</h3>
-                <p>
-                  Painéis, registros e fluxos que ajudam a equipe a enxergar
-                  melhor a operação do dia.
-                </p>
-              </article>
-
-              <article class="info-card" data-reveal>
-                <h3>Interfaces funcionais</h3>
-                <p>
-                  Interfaces simples de usar, pensadas para quem precisa
-                  resolver rápido no dia a dia.
-                </p>
-              </article>
-            </div>
-          </div>
-        </section>
-
-        <section class="section feature-section" id="projeto">
-          <div class="container">
-            <div class="feature-wrap" data-reveal>
-              <div class="feature-heading">
-                <span class="eyebrow">Projeto em destaque</span>
-                <h2>Portal de Reservas</h2>
-                <p>
-                  Projeto criado por iniciativa própria para substituir pedidos
-                  feitos em papel, fotos, planilhas e e-mail por um fluxo único
-                  de reservas.
-                </p>
-              </div>
-
-              <div class="feature-content">
-                <div class="feature-summary">
-                  <div class="summary-badge">Python + Flask</div>
-                  <p>
-                    Versão demonstrativa publicada online, com dados fictícios,
-                    para apresentar o fluxo de reservas sem expor informações
-                    internas.
-                  </p>
-
-                  <ul class="feature-tags">
-                    <li>Painel operacional em tempo real</li>
-                    <li>Controle automático de disponibilidade</li>
-                    <li>Fluxo professor + equipe de TI</li>
-                  </ul>
-
-                  <div class="feature-actions">
-                    <div class="feature-action-row">
-                      <a
-                        class="button button-primary"
-                        href="https://projetores-demo.onrender.com/login"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Ver demo online
-                      </a>
-                      <a
-                        class="button button-secondary"
-                        href="https://github.com/GustavoGurtler/projetores-demo"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Ver repositório no GitHub
-                      </a>
-                    </div>
-
-                    <p class="feature-note">
-                      A versão real é usada em ambiente interno. A demo foi
-                      preparada apenas para apresentação pública.
-                    </p>
-                  </div>
-                </div>
-
-                <div class="feature-blocks">
-                  <article class="feature-card">
-                    <span>Problema</span>
-                    <p>
-                      Antes, as reservas aconteciam de formas diferentes:
-                      projetores em papel, registros por foto e computadores em
-                      planilhas ou por e-mail. Isso gerava retrabalho, falta de
-                      padrão e dificuldade para entender a demanda do dia.
-                    </p>
-                  </article>
-
-                  <article class="feature-card">
-                    <span>Solução</span>
-                    <p>
-                      Criei o Portal de Reservas para reunir tudo em um só
-                      lugar. Professores fazem as solicitações digitalmente, e a
-                      equipe de TI acompanha as reservas em um painel com
-                      disponibilidade e tarefas organizadas.
-                    </p>
-                  </article>
-
-                  <article class="feature-card">
-                    <span>Impacto</span>
-                    <p>
-                      O processo ficou mais claro e mais confiável. Houve menos
-                      papel, menos controle manual e mais agilidade para a
-                      equipe identificar o que precisava ser feito em cada
-                      horário.
-                    </p>
-                  </article>
-
-                  <article class="feature-card">
-                    <span>Tecnologias</span>
-                    <p>Python, Flask, SQLite, HTML, CSS e JavaScript</p>
-                  </article>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="section" id="tecnologias">
-          <div class="container">
-            <div class="section-heading" data-reveal>
-              <span class="eyebrow">Tecnologias</span>
-              <h2>Tecnologias que venho estudando e aplicando na prática</h2>
-            </div>
-
-            <div class="card-grid tech-grid">
-              <article class="tech-card tech-card-primary" data-reveal>
-                <span class="tech-label">Principal</span>
-                <h3>Python</h3>
-                <p>
-                  Em estudo do básico à automação, com aplicação em regras de
-                  negócio, organização de processos e pequenos sistemas.
-                </p>
-              </article>
-
-              <article class="tech-card" data-reveal>
-                <h3>Flask</h3>
-                <p>
-                  Framework usado no Portal de Reservas para transformar uma
-                  necessidade real em sistema web.
-                </p>
-              </article>
-
-              <article class="tech-card" data-reveal>
-                <h3>SQLite</h3>
-                <p>Persistência simples e funcional para sistemas internos.</p>
-              </article>
-
-              <article class="tech-card" data-reveal>
-                <h3>HTML</h3>
-                <p>Estrutura semântica para interfaces claras e acessíveis.</p>
-              </article>
-
-              <article class="tech-card" data-reveal>
-                <h3>CSS</h3>
-                <p>Design responsivo com foco em legibilidade e presença visual.</p>
-              </article>
-
-              <article class="tech-card" data-reveal>
-                <h3>JavaScript</h3>
-                <p>Interações leves, navegação fluida e experiência mais dinâmica.</p>
-              </article>
-            </div>
-          </div>
-        </section>
-
-        <section class="section" id="diferenciais">
-          <div class="container">
-            <div class="section-heading" data-reveal>
-              <span class="eyebrow">Diferenciais</span>
-              <h2>Trabalho orientado por clareza técnica, utilidade e eficiência</h2>
-            </div>
-
-            <div class="card-grid five-up">
-              <article class="info-card" data-reveal>
-                <h3>Soluções com aplicação real</h3>
-                <p>
-                  Projeto criado a partir de uma demanda concreta observada no
-                  trabalho.
-                </p>
-              </article>
-
-              <article class="info-card" data-reveal>
-                <h3>Foco em automação e eficiência</h3>
-                <p>Menos repetição manual e mais consistência na operação.</p>
-              </article>
-
-              <article class="info-card" data-reveal>
-                <h3>Organização lógica de sistemas</h3>
-                <p>Fluxos e estruturas pensados para facilitar manutenção e uso.</p>
-              </article>
-
-              <article class="info-card" data-reveal>
-                <h3>Criação de interfaces funcionais</h3>
-                <p>Experiência objetiva para quem precisa usar o sistema no dia a dia.</p>
-              </article>
-
-              <article class="info-card" data-reveal>
-                <h3>Otimização de processos internos</h3>
-                <p>
-                  Interesse em criar ferramentas que apoiem a operação e ajudem
-                  a evitar retrabalho.
-                </p>
-              </article>
-            </div>
-          </div>
-        </section>
-
-        <section class="section contact-section" id="contato">
-          <div class="container">
-            <div class="contact-wrap" data-reveal>
-              <div class="section-heading">
-                <span class="eyebrow">Contato</span>
-                <h2>Aberto a oportunidades, networking e novos projetos</h2>
-                <p>
-                  Estou disponível para oportunidades, networking e novos
-                  projetos. Entre em contato.
-                </p>
-              </div>
-
-              <div class="contact-grid">
-                <a class="contact-card" href="mailto:gustavogurtler@gmail.com">
-                  <span>Email</span>
-                  <strong>gustavogurtler@gmail.com</strong>
-                </a>
-
-                <a
-                  class="contact-card"
-                  href="https://wa.me/5511944834989"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span>WhatsApp</span>
-                  <strong>+55 (11) 94483-4989</strong>
-                </a>
-
-                <a
-                  class="contact-card"
-                  href="https://github.com/GustavoGurtler"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span>GitHub</span>
-                  <strong>github.com/GustavoGurtler</strong>
-                </a>
-
-                <a
-                  class="contact-card"
-                  href="https://www.linkedin.com/in/gustavo-gurtler1"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span>LinkedIn</span>
-                  <strong>linkedin.com/in/gustavo-gurtler1</strong>
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
-      </main>
-
-      <footer class="site-footer">
-        <div class="container footer-wrap">
-          <p>Portfólio pessoal voltado a suporte técnico, Python e automação em evolução.</p>
-          <p><span id="current-year"></span> • Gustavo Gurtler</p>
+      <section class="block">
+        <h2>Sobre</h2>
+        <div class="content">
+          <p>
+            Comecei na TI pelo suporte, na mesma escola onde fiz o curso
+            técnico: atendendo professores, consertando máquina, configurando
+            rede e impressora. Foi ali que percebi quanto tempo se perdia com
+            controle em papel e planilha, e aprendi a programar para resolver
+            isso.
+          </p>
+          <p>
+            Hoje trabalho com testes na Compal, analisando falhas e mantendo os
+            scripts que rodam na linha de produção. Em paralelo, sigo estudando
+            Python com foco em automação.
+          </p>
         </div>
-      </footer>
-    </div>
+      </section>
 
-    <script src="script.js"></script>
+      <section class="block">
+        <h2>Projetos</h2>
+        <div class="content">
+          <article class="item">
+            <h3>Portal de Reservas</h3>
+            <p class="meta">Python, Flask, SQLite</p>
+            <p>
+              Na escola onde trabalhei, projetores eram reservados em papel e
+              computadores por planilha ou e-mail. Fiz um sistema web em que o
+              professor pede o equipamento e a equipe de TI vê num painel o que
+              precisa entregar em cada horário. O sistema continua em uso na
+              escola; a versão pública abaixo usa dados fictícios.
+            </p>
+            <p class="actions">
+              <a href="https://projetores-demo.onrender.com/login" target="_blank" rel="noreferrer">Abrir demo</a>
+              <a href="https://github.com/GustavoGurtler/projetores-demo/blob/main/COMPARATIVO.md" target="_blank" rel="noreferrer">Antes e depois</a>
+              <a href="https://github.com/GustavoGurtler/projetores-demo" target="_blank" rel="noreferrer">Código no GitHub</a>
+            </p>
+          </article>
+          <article class="item">
+            <h3>Sistema da Gincana Escolar</h3>
+            <p class="meta">Python, SQLite, CustomTkinter</p>
+            <p>
+              A gincana da escola rodava desde 2014 em programas antigos em
+              Visual Basic: todo ano era preciso mexer no código, e um ponto
+              lançado errado não tinha como ser corrigido. Reescrevi tudo em
+              Python, com divisão automática das equipes, correção de pontos
+              com histórico e placar ao vivo no telão. Foi usado na gincana de
+              2026; a demo usa dados fictícios.
+            </p>
+            <p class="actions">
+              <a href="https://gustavogurtler.github.io/gincana-escolar/" target="_blank" rel="noreferrer">Abrir demo do placar</a>
+              <a href="https://github.com/GustavoGurtler/gincana-escolar/blob/main/COMPARATIVO.md" target="_blank" rel="noreferrer">Antes e depois</a>
+              <a href="https://github.com/GustavoGurtler/gincana-escolar" target="_blank" rel="noreferrer">Código no GitHub</a>
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="block">
+        <h2>Experiência</h2>
+        <div class="content">
+          <article class="item">
+            <h3>Técnico de Engenharia de Testes Jr.</h3>
+            <p class="meta">Compal, Jundiaí, SP · jul. 2026 até hoje</p>
+            <ul>
+              <li>Análise de falhas durante a execução dos testes.</li>
+              <li>Manutenção dos scripts Batch (.bat) usados no processo de teste.</li>
+              <li>Suporte à linha de produção em ocorrências ligadas aos testes.</li>
+            </ul>
+          </article>
+          <article class="item">
+            <h3>Técnico de Suporte em TI</h3>
+            <p class="meta">Escola Professor Luiz Rosa, Jundiaí, SP · fev. 2025 a jun. 2026</p>
+            <ul>
+              <li>Atendimento a professores e equipe administrativa: hardware, software e rede.</li>
+              <li>Instalação e configuração de Windows, aplicativos, impressoras e Wi-Fi.</li>
+              <li>Manutenção preventiva e corretiva, formatação e montagem de computadores.</li>
+              <li>Desenvolvimento do Portal de Reservas, por iniciativa própria.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="block">
+        <h2>Formação</h2>
+        <div class="content">
+          <article class="item">
+            <h3>Engenharia da Computação</h3>
+            <p class="meta">Universidade São Francisco · 2025 a 2029 (previsão)</p>
+          </article>
+          <article class="item">
+            <h3>Técnico em Informática</h3>
+            <p class="meta">Escola Professor Luiz Rosa · 2022 a 2024</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="block">
+        <h2>Certificações</h2>
+        <div class="content">
+          <article class="item">
+            <h3>Inglês nível C1 (avançado)</h3>
+            <p class="meta">Eurocentre Idiomas · ago. 2025</p>
+          </article>
+          <article class="item">
+            <h3>Python para automação</h3>
+            <p class="meta">
+              Udemy · out. 2026 ·
+              <a href="https://ude.my/UC-41e82ae0-60a7-42b2-8791-54c20f1b8a2d" target="_blank" rel="noreferrer">ver certificado</a>
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="block">
+        <h2>Ferramentas</h2>
+        <div class="content">
+          <p>
+            Python, Flask, SQLite, HTML, CSS, JavaScript e Batch. Windows,
+            redes, Excel e Access.
+          </p>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>
+          <a href="mailto:gustavogurtler@gmail.com">gustavogurtler@gmail.com</a>
+          <span aria-hidden="true">·</span>
+          (11) 94483-4989
+        </p>
+      </footer>
+    </main>
   </body>
 </html>
